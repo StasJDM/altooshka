@@ -1,26 +1,9 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "downlevelIteration": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
     "module": "commonjs",
-    "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "outDir": "build/compiled",
-    "pretty": true,
-    "sourceMap": true,
-    "strictFunctionTypes": false,
-    "strictPropertyInitialization": false,
-    "stripInternal": true,
-    "useUnknownInCatchVariables": false
+    "target": "es2019",
+    "declaration": true,
+    "outDir": "./dist"
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"]
 }
