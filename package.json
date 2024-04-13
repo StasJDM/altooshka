@@ -1,0 +1,23 @@
+{
+  "name": "altooshka",
+  "version": "1.0.0",
+  "description": "Alternative Node.js ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/StasJDM/altooshka.git"
+  },
+  "keywords": [
+    "nodejs",
+    "orm"
+  ],
+  "author": "Stas Pyatnicyn <pyatnicyn.stanislav@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StasJDM/altooshka/issues"
+  },
+  "homepage": "https://github.com/StasJDM/altooshka#readme"
+}
